@@ -1,0 +1,629 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 596
+License: Customer
+
+Current time: 	Thu Sep 27 21:49:03 CEST 2018
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1440x900
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 24 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	vm-legal
+User home directory: C:/Users/vm-legal
+User working directory: C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/vm-legal/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/vm-legal/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/vm-legal/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/vivado.log
+Vivado journal file location: 	C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/vivado.jou
+Engine tmp dir: 	C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/.Xil/Vivado-596-vm-legal-PC
+
+Xilinx Environment Variables
+----------------------------
+ALTERAOCLSDKROOT: C:\altera\15.0\hld
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: C:\.Xilinx\Xilinx.lic
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	171 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 528 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 17 MB (+14841kb) [00:00:05]
+// [Engine Memory]: 272 MB (+133421kb) [00:00:05]
+// TclEventType: START_GUI
+// [GUI Memory]: 54 MB (+38369kb) [00:00:13]
+// [Engine Memory]: 454 MB (+176917kb) [00:00:13]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\GitHub\nexys_modules\prj_carte_sd_to_i2s\vivado\AudioCarteSDtoI2S.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/AudioCarteSDtoI2S.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 60 MB (+3226kb) [00:00:17]
+// [Engine Memory]: 542 MB (+68702kb) [00:00:17]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 65 MB (+2385kb) [00:00:20]
+// [Engine Memory]: 581 MB (+12060kb) [00:00:20]
+// Tcl Message: open_project C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/AudioCarteSDtoI2S.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/GitHub/nexys_modules/prj_carte_sd_board_vga/vivado' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [filemgmt 56-1] IPUserFilesDir: Directory not found as 'C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/AudioCarteSDtoI2S.ip_user_files'; using path 'C:/GitHub/nexys_modules/prj_carte_sd_board_vga/vivado/AudioCarteSD.ip_user_files' instead. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 593 MB. GUI used memory: 37 MB. Current time: 9/27/18 9:49:09 PM CEST
+// Project name: AudioCarteSDtoI2S; location: C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 775.047 ; gain = 96.277 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 520ms to process. Increasing delay to 3000 ms.
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (time_base.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, time_base(Behavioral) (time_base.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, time_base(Behavioral) (time_base.vhd)]", 2, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/time_base.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/time_base.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (GPIO_Demo.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (GPIO_Demo.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (GPIO_Demo.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("GPIO_Demo.vhd", 164, 34); // ce (w, ck)
+// [GUI Memory]: 69 MB (+690kb) [00:00:54]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 41 MB. Current time: 9/27/18 9:49:45 PM CEST
+// [GUI Memory]: 77 MB (+4563kb) [00:01:03]
+// [Engine Memory]: 613 MB (+3415kb) [00:01:03]
+// Elapsed time: 13 seconds
+selectCodeEditor("GPIO_Demo.vhd", 250, 32); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 54 seconds
+selectCodeEditor("GPIO_Demo.vhd", 280, 77); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Vga(Behavioral) (Vga.vhd)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Vga(Behavioral) (Vga.vhd), Inst_PxlClkGen : clk_wiz_0 (clk_wiz_0.xci)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Vga(Behavioral) (Vga.vhd), Inst_PxlClkGen : clk_wiz_0 (clk_wiz_0.xci)]", 3, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // aa (aj, ck)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, ck)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_board_vga/vivado/AudioCarteSD.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -reset -force -quiet 
+// TclEventType: RUN_DELETE
+// aE (ck): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: remove_files  -fileset clk_wiz_0 C:/GitHub/nexys_modules/prj_carte_sd_board_vga/vivado/AudioCarteSD.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 81 MB (+135kb) [00:02:13]
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [Project 1-386] Moving file 'C:/GitHub/nexys_modules/prj_carte_sd_board_vga/vivado/AudioCarteSD.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' from fileset 'clk_wiz_0' to fileset 'sources_1'. 
+dismissDialog("Remove Sources"); // bx (aE)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Vga(Behavioral) (Vga.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Vga(Behavioral) (Vga.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Vga(Behavioral) (Vga.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Vga(Behavioral) (Vga.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sine_wave(arch1) (sinus_wave.vhd)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Vga(Behavioral) (Vga.vhd)]", 2, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, ck)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/digilent/Vga.vhd] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/digilent/MicDisplay.vhd] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/sinus_wave.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/digilent/Vga.vhd C:/GitHub/nexys_modules/prj_carte_sd_board_vga/vivado/AudioCarteSD.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/digilent/MicDisplay.vhd C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/sinus_wave.vhd} 
+// [GUI Memory]: 86 MB (+1381kb) [00:02:19]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (GPIO_Demo.vhd)]", 1, true); // B (D, ck) - Node
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (GPIO_Demo.vhd), system : pwm_mod(Behavioral) (pwm_mod.vhd)]", 3, false); // B (D, ck)
+selectCodeEditor("GPIO_Demo.vhd", 127, 146); // ce (w, ck)
+selectCodeEditor("GPIO_Demo.vhd", 218, 33); // ce (w, ck)
+selectCodeEditor("GPIO_Demo.vhd", 218, 33, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("GPIO_Demo.vhd", 218, 33); // ce (w, ck)
+selectCodeEditor("GPIO_Demo.vhd", 194, 76); // ce (w, ck)
+selectCodeEditor("GPIO_Demo.vhd", 194, 76, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("GPIO_Demo.vhd", 194, 76); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true); // B (D, ck) - Node
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, pwm_mod.vhd]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, pwm_mod.vhd]", 2, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+// TclEventType: DG_GRAPH_GENERATED
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/pwm_mod.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/pwm_mod.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 42 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (GPIO_Demo.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (GPIO_Demo.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (GPIO_Demo.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (GPIO_Demo.vhd)]", 1, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/GPIO_Demo.vhd] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/Sdcard_readstream.vhd] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/Pmod_I2S_out.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/GPIO_Demo.vhd C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/Sdcard_readstream.vhd C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/Pmod_I2S_out.vhd} 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton("NEXT", "Next >"); // JButton (j, c)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+String[] filenames31467 = {"C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/pmod/Pmod_I2S_out.vhd", "C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/pmod/SDcard_raw_access_V2.vhd", "C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/pmod/Sdcard_readstream.vhd"};
+setFileChooser(filenames31467);
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/top_module.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 20 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/pmod/Sdcard_readstream.vhd C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/pmod/SDcard_raw_access_V2.vhd C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/pmod/Pmod_I2S_out.vhd C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/top_module.vhd} 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (top_module.vhd)]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (top_module.vhd), card : Sdcard_readstream(Behavioral) (Sdcard_readstream.vhd)]", 3); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, SDcard_raw_access_V2.vhd]", 12, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files, SDcard_raw_access_V2.vhd]", 12, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ad (aj, ck)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, ck)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 44 MB. Current time: 9/27/18 9:53:20 PM CEST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/SDcard_raw_access_V2.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/SDcard_raw_access_V2.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Non-module Files]", 11, true); // B (D, ck) - Node
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, GPIO_demo(Behavioral) (top_module.vhd)]", 13); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4_Master.xdc]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4_Master.xdc]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("Nexys4_Master.xdc", 111, 114); // ce (w, ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 216ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 26 seconds
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (top_module.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, GPIO_demo(Behavioral) (top_module.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("top_module.vhd", 58, 145); // ce (w, ck)
+selectCodeEditor("top_module.vhd", 58, 145, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_module.vhd", 58, 145); // ce (w, ck)
+selectCodeEditor("top_module.vhd", 58, 145, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "top_module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("top_module.vhd", 81, 108); // ce (w, ck)
+selectCodeEditor("top_module.vhd", 81, 108, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "top_module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("top_module.vhd", 227, 228); // ce (w, ck)
+selectCodeEditor("top_module.vhd", 227, 228, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "top_module.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("top_module.vhd", 295, 126); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_module.vhd", 300, 126); // ce (w, ck)
+selectCodeEditor("top_module.vhd", 300, 126, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_module.vhd", 300, 126); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("top_module.vhd", 291, 121); // ce (w, ck)
+selectCodeEditor("top_module.vhd", 291, 121, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_module.vhd", 291, 121); // ce (w, ck)
+// [GUI Memory]: 92 MB (+1770kb) [00:06:46]
+selectCodeEditor("top_module.vhd", 12, 234); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Sep 27 21:55:45 2018] Launched synth_1... Run output will be captured here: C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/AudioCarteSDtoI2S.runs/synth_1/runme.log [Thu Sep 27 21:55:45 2018] Launched impl_1... Run output will be captured here: C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/AudioCarteSDtoI2S.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// [Engine Memory]: 651 MB (+6996kb) [00:06:59]
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 631ms to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 73 seconds
+selectCodeEditor("top_module.vhd", 342, 182); // ce (w, ck)
+// [GUI Memory]: 97 MB (+149kb) [00:09:15]
+// TclEventType: RUN_FAILED
+// ah (ck): Bitstream Generation Failed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 658 MB. GUI used memory: 47 MB. Current time: 9/27/18 9:58:10 PM CEST
+// Elapsed time: 168 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah (ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 276, 54); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 276, 54, false, false, false, false, true); // n (q, ck) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 276, 54); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 278, 45); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 278, 45, false, false, false, false, true); // n (q, ck) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 278, 45); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 332, 42); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 332, 42, false, false, false, false, true); // n (q, ck) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 332, 42); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 254, 73); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 254, 73, false, false, false, false, true); // n (q, ck) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 254, 73); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 255, 25); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 255, 25); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 255, 25, false, false, false, false, true); // n (q, ck) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 255, 25); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 236, 60); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 236, 60, false, false, false, false, true); // n (q, ck) - Double Click
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 236, 60); // n (q, ck)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 300, 15); // n (q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR, "3 errors"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC NSTD-1] Unspecified I/O Standard: 2 out of 32 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: ampPWM, and ampSD.. ]", 4, false); // ah (O, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module(Behavioral) (top_module.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_module(Behavioral) (top_module.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("top_module.vhd", 260, 94); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+selectCodeEditor("top_module.vhd", 104, 246); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 105 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Sep 27 22:02:36 2018] Launched synth_1... Run output will be captured here: C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/AudioCarteSDtoI2S.runs/synth_1/runme.log [Thu Sep 27 22:02:36 2018] Launched impl_1... Run output will be captured here: C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/AudioCarteSDtoI2S.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 343 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aE (Q, ck)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ck)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aE (Q, ck)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aE (Q, ck)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aE (Q, ck)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Scripts Generated ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Implementation Defaults (Vivado Implementation 2016) ; Vivado Implementation Default Reports ; xc7a100tcsg324-1 ; Default settings for Implementation.", 1, "impl_1", 0, false); // ax (O, ck)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 1.7s
+// [Engine Memory]: 684 MB (+1289kb) [00:19:45]
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Sep 27 22:02:42 CEST 2018 ; 00:00:02 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; Vivado Synthesis Default Reports ; xc7a100tcsg324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ax (O, ck) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 684 MB. GUI used memory: 49 MB. Current time: 9/27/18 10:08:33 PM CEST
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-275] File does not exist [C:/GitHub/nexys_modules/prj_carte_sd_board_vga/ucf/Nexys4_Master.xdc]. ]", 1, false); // ah (O, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4_Master.xdc]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4_Master.xdc]", 6, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, ck)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/GitHub/nexys_modules/prj_carte_sd_board_vga/ucf/Nexys4_Master.xdc] -no_script -reset -force -quiet 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+// Tcl Message: remove_files  -fileset constrs_1 C:/GitHub/nexys_modules/prj_carte_sd_board_vga/ucf/Nexys4_Master.xdc 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // B (f, c)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // ad (aj, c)
+// Elapsed time: 44 seconds
+dismissFileChooser();
+selectButton("BACK", "< Back"); // JButton (j, c)
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a (C, c)
+setFileChooser("C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 63 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 103 MB (+1404kb) [00:21:08]
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_LAUNCH
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Thu Sep 27 22:09:55 2018] Launched synth_1... Run output will be captured here: C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/AudioCarteSDtoI2S.runs/synth_1/runme.log [Thu Sep 27 22:09:55 2018] Launched impl_1... Run output will be captured here: C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/vivado/AudioCarteSDtoI2S.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 248ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 616ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 73 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:353]. ]", 1); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:353]. , [Common 17-55] 'set_property' expects at least one object. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:355]. ]", 2, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\GitHub\nexys_modules\prj_carte_sd_to_i2s\xdc\Nexys4_Master.xdc;-;;-;16;-;line;-;355;-;;-;16;-;"); // ah (O, ck)
+// TclEventType: RUN_STEP_COMPLETED
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Nexys4_Master.xdc", 'v'); // ce (w, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4_Master.xdc]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4_Master.xdc]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("Nexys4_Master.xdc", 81, 163); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("Nexys4_Master.xdc", 110, 115); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("Nexys4_Master.xdc", 50, 191, true, false, false, false, false); // ce (w, ck) - Shift Key
+selectCodeEditor("Nexys4_Master.xdc", 50, 191, true, false, false, false, true); // ce (w, ck) - Shift Key - Double Click
+selectCodeEditor("Nexys4_Master.xdc", 191, 144); // ce (w, ck)
+selectCodeEditor("Nexys4_Master.xdc", 163, 180); // ce (w, ck)
+selectCodeEditor("Nexys4_Master.xdc", 163, 180, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Nexys4_Master.xdc", 163, 180); // ce (w, ck)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, ck)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ck)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Nexys4_Master.xdc", 157, 194); // ce (w, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:353]. ]", 49, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\GitHub\nexys_modules\prj_carte_sd_to_i2s\xdc\Nexys4_Master.xdc;-;;-;16;-;line;-;353;-;;-;16;-;"); // ah (O, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "98 warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Vivado 12-584] No ports matched 'vga_red_o[0]'. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:353]. ]", 5, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\GitHub\nexys_modules\prj_carte_sd_to_i2s\xdc\Nexys4_Master.xdc;-;;-;16;-;line;-;353;-;;-;16;-;"); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (card/SD_raw_controler/resp_wrongCRC_reg) is unused and will be removed from module top_module.. ]", 9, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Netlist 29-101] Netlist 'top_module' is not ideal for floorplanning, since the cellview 'SDcard_raw_access_V2' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.. ]", 10, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Constraints 18-5210] No constraint will be written out.. ]", 11, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 12, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 12, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 12, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 12, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Constraints 18-5210] No constraint will be written out.. ]", 11, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Netlist 29-101] Netlist 'top_module' is not ideal for floorplanning, since the cellview 'SDcard_raw_access_V2' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.. ]", 10, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Constraints 18-5210] No constraint will be written out.. ]", 11, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 12, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization]", 13, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Netlist 29-101] Netlist 'top_module' is not ideal for floorplanning, since the cellview 'SDcard_raw_access_V2' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.. ]", 14, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Vivado 12-584] No ports matched 'vga_red_o[0]'. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:353]. ]", 15, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:353]. ]", 16, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:353]. ]", 16, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Vivado 12-584] No ports matched 'vga_red_o[0]'. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:353]. ]", 15, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Netlist 29-101] Netlist 'top_module' is not ideal for floorplanning, since the cellview 'SDcard_raw_access_V2' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.. ]", 14, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization]", 13, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 12, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Constraints 18-5210] No constraint will be written out.. ]", 11, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Netlist 29-101] Netlist 'top_module' is not ideal for floorplanning, since the cellview 'SDcard_raw_access_V2' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.. ]", 10, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (card/SD_raw_controler/resp_wrongCRC_reg) is unused and will be removed from module top_module.. ]", 9, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design top_module has unconnected port source. ]", 8, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3917] design top_module has port SD_RESET driven by constant 0. ]", 7, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:353]. ]", 6, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Vivado 12-584] No ports matched 'vga_red_o[0]'. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/xdc/Nexys4_Master.xdc:353]. ]", 5, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin I2S_audio:left[15] to constant 0 [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/top_module.vhd:84]. ]", 4, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3848] Net SOUND_VALUES in module/entity top_module does not have driver. [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/top_module.vhd:51]. ]", 3, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6014] Unused sequential element shift_reg was removed.  [C:/GitHub/nexys_modules/prj_carte_sd_to_i2s/src/pmod/SDcard_raw_access_V2.vhd:915]. ]", 2, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 1, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, ck) - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (StateMonitor Timer) is taking 843ms to process. Increasing delay to 4000 ms.
+// [GUI Memory]: 109 MB (+678kb) [00:25:13]

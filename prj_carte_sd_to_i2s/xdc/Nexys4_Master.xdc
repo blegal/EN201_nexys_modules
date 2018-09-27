@@ -349,77 +349,77 @@ set_property IOSTANDARD LVCMOS33 [get_ports SDIN]
 
 
 
-# VGA Signals
-set_property PACKAGE_PIN A3 [get_ports {vga_red_o[0]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_red_o[0]' has been applied to the port object 'vga_red_o[0]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_red_o[0]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_red_o[0]' has been applied to the port object 'vga_red_o[0]'.
-set_property SLEW FAST [get_ports {vga_red_o[0]}]
-set_property PACKAGE_PIN B4 [get_ports {vga_red_o[1]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_red_o[1]' has been applied to the port object 'vga_red_o[1]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_red_o[1]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_red_o[1]' has been applied to the port object 'vga_red_o[1]'.
-set_property SLEW FAST [get_ports {vga_red_o[1]}]
-set_property PACKAGE_PIN C5 [get_ports {vga_red_o[2]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_red_o[2]' has been applied to the port object 'vga_red_o[2]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_red_o[2]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_red_o[2]' has been applied to the port object 'vga_red_o[2]'.
-set_property SLEW FAST [get_ports {vga_red_o[2]}]
-set_property PACKAGE_PIN A4 [get_ports {vga_red_o[3]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_red_o[3]' has been applied to the port object 'vga_red_o[3]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_red_o[3]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_red_o[3]' has been applied to the port object 'vga_red_o[3]'.
-set_property SLEW FAST [get_ports {vga_red_o[3]}]
-set_property PACKAGE_PIN B7 [get_ports {vga_blue_o[0]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_blue_o[0]' has been applied to the port object 'vga_blue_o[0]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_blue_o[0]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_blue_o[0]' has been applied to the port object 'vga_blue_o[0]'.
-set_property SLEW FAST [get_ports {vga_blue_o[0]}]
-set_property PACKAGE_PIN C7 [get_ports {vga_blue_o[1]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_blue_o[1]' has been applied to the port object 'vga_blue_o[1]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_blue_o[1]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_blue_o[1]' has been applied to the port object 'vga_blue_o[1]'.
-set_property SLEW FAST [get_ports {vga_blue_o[1]}]
-set_property PACKAGE_PIN D7 [get_ports {vga_blue_o[2]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_blue_o[2]' has been applied to the port object 'vga_blue_o[2]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_blue_o[2]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_blue_o[2]' has been applied to the port object 'vga_blue_o[2]'.
-set_property SLEW FAST [get_ports {vga_blue_o[2]}]
-set_property PACKAGE_PIN D8 [get_ports {vga_blue_o[3]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_blue_o[3]' has been applied to the port object 'vga_blue_o[3]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_blue_o[3]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_blue_o[3]' has been applied to the port object 'vga_blue_o[3]'.
-set_property SLEW FAST [get_ports {vga_blue_o[3]}]
-set_property PACKAGE_PIN C6 [get_ports {vga_green_o[0]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_green_o[0]' has been applied to the port object 'vga_green_o[0]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_green_o[0]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_green_o[0]' has been applied to the port object 'vga_green_o[0]'.
-set_property SLEW FAST [get_ports {vga_green_o[0]}]
-set_property PACKAGE_PIN A5 [get_ports {vga_green_o[1]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_green_o[1]' has been applied to the port object 'vga_green_o[1]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_green_o[1]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_green_o[1]' has been applied to the port object 'vga_green_o[1]'.
-set_property SLEW FAST [get_ports {vga_green_o[1]}]
-set_property PACKAGE_PIN B6 [get_ports {vga_green_o[2]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_green_o[2]' has been applied to the port object 'vga_green_o[2]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_green_o[2]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_green_o[2]' has been applied to the port object 'vga_green_o[2]'.
-set_property SLEW FAST [get_ports {vga_green_o[2]}]
-set_property PACKAGE_PIN A6 [get_ports {vga_green_o[3]}]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_green_o[3]' has been applied to the port object 'vga_green_o[3]'.
-set_property IOSTANDARD LVCMOS33 [get_ports {vga_green_o[3]}]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_green_o[3]' has been applied to the port object 'vga_green_o[3]'.
-set_property SLEW FAST [get_ports {vga_green_o[3]}]
-set_property PACKAGE_PIN B11 [get_ports vga_hs_o]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_hs_o' has been applied to the port object 'vga_hs_o'.
-set_property IOSTANDARD LVCMOS33 [get_ports vga_hs_o]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_hs_o' has been applied to the port object 'vga_hs_o'.
-set_property SLEW FAST [get_ports vga_hs_o]
-set_property PACKAGE_PIN B12 [get_ports vga_vs_o]
-# The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_vs_o' has been applied to the port object 'vga_vs_o'.
-set_property IOSTANDARD LVCMOS33 [get_ports vga_vs_o]
-# The conversion of 'SLEW' constraint on 'net' object 'vga_vs_o' has been applied to the port object 'vga_vs_o'.
-set_property SLEW FAST [get_ports vga_vs_o]
+## VGA Signals
+#set_property PACKAGE_PIN A3 [get_ports {vga_red_o[0]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_red_o[0]' has been applied to the port object 'vga_red_o[0]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_red_o[0]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_red_o[0]' has been applied to the port object 'vga_red_o[0]'.
+#set_property SLEW FAST [get_ports {vga_red_o[0]}]
+#set_property PACKAGE_PIN B4 [get_ports {vga_red_o[1]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_red_o[1]' has been applied to the port object 'vga_red_o[1]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_red_o[1]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_red_o[1]' has been applied to the port object 'vga_red_o[1]'.
+#set_property SLEW FAST [get_ports {vga_red_o[1]}]
+#set_property PACKAGE_PIN C5 [get_ports {vga_red_o[2]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_red_o[2]' has been applied to the port object 'vga_red_o[2]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_red_o[2]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_red_o[2]' has been applied to the port object 'vga_red_o[2]'.
+#set_property SLEW FAST [get_ports {vga_red_o[2]}]
+#set_property PACKAGE_PIN A4 [get_ports {vga_red_o[3]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_red_o[3]' has been applied to the port object 'vga_red_o[3]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_red_o[3]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_red_o[3]' has been applied to the port object 'vga_red_o[3]'.
+#set_property SLEW FAST [get_ports {vga_red_o[3]}]
+#set_property PACKAGE_PIN B7 [get_ports {vga_blue_o[0]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_blue_o[0]' has been applied to the port object 'vga_blue_o[0]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_blue_o[0]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_blue_o[0]' has been applied to the port object 'vga_blue_o[0]'.
+#set_property SLEW FAST [get_ports {vga_blue_o[0]}]
+#set_property PACKAGE_PIN C7 [get_ports {vga_blue_o[1]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_blue_o[1]' has been applied to the port object 'vga_blue_o[1]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_blue_o[1]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_blue_o[1]' has been applied to the port object 'vga_blue_o[1]'.
+#set_property SLEW FAST [get_ports {vga_blue_o[1]}]
+#set_property PACKAGE_PIN D7 [get_ports {vga_blue_o[2]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_blue_o[2]' has been applied to the port object 'vga_blue_o[2]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_blue_o[2]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_blue_o[2]' has been applied to the port object 'vga_blue_o[2]'.
+#set_property SLEW FAST [get_ports {vga_blue_o[2]}]
+#set_property PACKAGE_PIN D8 [get_ports {vga_blue_o[3]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_blue_o[3]' has been applied to the port object 'vga_blue_o[3]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_blue_o[3]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_blue_o[3]' has been applied to the port object 'vga_blue_o[3]'.
+#set_property SLEW FAST [get_ports {vga_blue_o[3]}]
+#set_property PACKAGE_PIN C6 [get_ports {vga_green_o[0]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_green_o[0]' has been applied to the port object 'vga_green_o[0]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_green_o[0]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_green_o[0]' has been applied to the port object 'vga_green_o[0]'.
+#set_property SLEW FAST [get_ports {vga_green_o[0]}]
+#set_property PACKAGE_PIN A5 [get_ports {vga_green_o[1]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_green_o[1]' has been applied to the port object 'vga_green_o[1]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_green_o[1]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_green_o[1]' has been applied to the port object 'vga_green_o[1]'.
+#set_property SLEW FAST [get_ports {vga_green_o[1]}]
+#set_property PACKAGE_PIN B6 [get_ports {vga_green_o[2]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_green_o[2]' has been applied to the port object 'vga_green_o[2]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_green_o[2]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_green_o[2]' has been applied to the port object 'vga_green_o[2]'.
+#set_property SLEW FAST [get_ports {vga_green_o[2]}]
+#set_property PACKAGE_PIN A6 [get_ports {vga_green_o[3]}]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_green_o[3]' has been applied to the port object 'vga_green_o[3]'.
+#set_property IOSTANDARD LVCMOS33 [get_ports {vga_green_o[3]}]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_green_o[3]' has been applied to the port object 'vga_green_o[3]'.
+#set_property SLEW FAST [get_ports {vga_green_o[3]}]
+#set_property PACKAGE_PIN B11 [get_ports vga_hs_o]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_hs_o' has been applied to the port object 'vga_hs_o'.
+#set_property IOSTANDARD LVCMOS33 [get_ports vga_hs_o]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_hs_o' has been applied to the port object 'vga_hs_o'.
+#set_property SLEW FAST [get_ports vga_hs_o]
+#set_property PACKAGE_PIN B12 [get_ports vga_vs_o]
+## The conversion of 'IOSTANDARD' constraint on 'net' object 'vga_vs_o' has been applied to the port object 'vga_vs_o'.
+#set_property IOSTANDARD LVCMOS33 [get_ports vga_vs_o]
+## The conversion of 'SLEW' constraint on 'net' object 'vga_vs_o' has been applied to the port object 'vga_vs_o'.
+#set_property SLEW FAST [get_ports vga_vs_o]
 
 
 
