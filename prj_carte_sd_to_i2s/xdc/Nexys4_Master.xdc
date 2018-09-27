@@ -504,11 +504,11 @@ set_property IOSTANDARD LVCMOS33 [get_ports {SD_DAT[3]}]
 
 ##PWM Audio Amplifier
 #Bank = 15, Pin name = IO_L4N_T0_15,						Sch name = AUD_PWM
-set_property PACKAGE_PIN A11 [get_ports ampPWM]
-set_property IOSTANDARD LVCMOS33 [get_ports ampPWM]
+#set_property PACKAGE_PIN A11 [get_ports ampPWM]
+#set_property IOSTANDARD LVCMOS33 [get_ports ampPWM]
 #Bank = 15, Pin name = IO_L6P_T0_15,						Sch name = AUD_SD
-set_property PACKAGE_PIN D12 [get_ports ampSD]
-set_property IOSTANDARD LVCMOS33 [get_ports ampSD]
+#set_property PACKAGE_PIN D12 [get_ports ampSD]
+#set_property IOSTANDARD LVCMOS33 [get_ports ampSD]
 
 
 

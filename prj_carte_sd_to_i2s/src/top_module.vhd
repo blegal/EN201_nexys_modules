@@ -81,6 +81,17 @@ BEGIN
 
     LED <= SOUND_VALUES(15 downto 8) & debug & sd_error & data_empty_n;
 
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if source='1' then
+                SOUND_VALUES <= VAL_FROM_SD;
+            else
+                SOUND_VALUES <= (31 downto 30 => VAL_FROM_SD(31)) & VAL_FROM_SD(31 downto 18) & (15 downto 14 => VAL_FROM_SD(15)) & VAL_FROM_SD(15 downto 2);
+            end if;
+        end if;
+    end process;
+
     I2S_audio : Pmod_I2S_out 
         Port map(clk    => clk,
                  reset  => reset,
